@@ -62,6 +62,8 @@ if ($payload->ref === 'refs/heads/master') {
 		
 	} else if(is_array($r) && $rr > 0) {
 		mail($mail, "GIT BOT', 'Error something goes wrong. Code: ".$rr);
+	} else {
+		mail($mail, "GIT BOT', 'Error something goes wrong. Code: ".$rr);
 	}
 }
 
