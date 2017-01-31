@@ -24,6 +24,8 @@ if ($payload->ref === 'refs/heads/master') {
 	mail($mail, 'GIT TEST 2', print_r($r, TRUE));
 	mail($mail, 'GIT TEST 3', print_r($rr, TRUE));
 	
+	$err = false;
+	
 	if(is_array($r) && $rr == 0) {
 		
 		if($r[0] == "Already up-to-date.") {
@@ -64,25 +66,21 @@ if ($payload->ref === 'refs/heads/master') {
 		
 	} else if(is_array($r) && $rr > 0) {
 		
-		//error in die DB Pumpen!
-		$error = "git ".$a."\n\n";
-		
-		foreach($r AS $c) {
-			$m.= $c."\n";
-		}
-		
-		$error.= $m."\n\n".$where;
-		mail($mail, "GIT BOT", $error);
+		$err = true;
 		
 	} else {
-		//error in die DB Pumpen!
-		$error = "git ".$a."\n\n";
 		
+		$err = true;
+	}
+	
+	if($err === true) {
+		
+		$error = "git ".$a."\n\n";
 		foreach($r AS $c) {
 			$m.= $c."\n";
 		}
 		
-		$error.= $m."\n\n".$where;
+		$error.= $m."\n".$where;
 		mail($mail, "GIT BOT", $error);
 	}
 }
