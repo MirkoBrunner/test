@@ -40,7 +40,7 @@ if ($payload->ref === 'refs/heads/master') {
 			
 			//we have a description?
 			$dm = explode("\n\n", $commit_msg);
-			if($dm) {
+			if(count($dm) > 1) {
 				$text = $dm[1]."\n\nFrom: ".$where;
 				
 				//nun Slack was senden
@@ -65,7 +65,7 @@ if ($payload->ref === 'refs/heads/master') {
 	} else if(is_array($r) && $rr > 0) {
 		
 		//error in die DB Pumpen!
-		$error = "git ".$r."\n\n";
+		$error = "git ".$a."\n\n";
 		
 		foreach($r AS $c) {
 			$m.= $c."\n";
@@ -76,7 +76,7 @@ if ($payload->ref === 'refs/heads/master') {
 		
 	} else {
 		//error in die DB Pumpen!
-		$error = "git ".$r."\n\n";
+		$error = "git ".$a."\n\n";
 		
 		foreach($r AS $c) {
 			$m.= $c."\n";
