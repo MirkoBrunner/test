@@ -1,6 +1,4 @@
 <?php
-
-error_reporting(0);
 try {
         // Decode the payload json string
 		$payload = json_decode($_REQUEST['payload']);
