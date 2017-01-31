@@ -1,7 +1,7 @@
 <?php
 try {
-        // Decode the payload json string
-		$payload = json_decode($_REQUEST['payload']);
+    // Decode the payload json string
+	$payload = json_decode($_REQUEST['payload']);
 
 } catch(Exception $e) {
 	
@@ -63,9 +63,27 @@ if ($payload->ref === 'refs/heads/master') {
 		}
 		
 	} else if(is_array($r) && $rr > 0) {
-		mail($mail, "GIT BOT', 'Error something goes wrong. Code: ".$rr);
+		
+		//error in die DB Pumpen!
+		$error = "git ".$r."\n\n";
+		
+		foreach($r AS $c) {
+			$m.= $c."\n";
+		}
+		
+		$error.= $m."\n\n".$where;
+		mail($mail, "GIT BOT", $error);
+		
 	} else {
-		mail($mail, "GIT BOT', 'Error something goes wrong. Code: ".$rr);
+		//error in die DB Pumpen!
+		$error = "git ".$r."\n\n";
+		
+		foreach($r AS $c) {
+			$m.= $c."\n";
+		}
+		
+		$error.= $m."\n\n".$where;
+		mail($mail, "GIT BOT", $error);
 	}
 }
 
