@@ -1,0 +1,422 @@
+Array
+(
+)
+Array
+(
+)
+Array
+(
+)
+Array
+(
+)
+Array
+(
+)
+Array
+(
+    [payload] => {"ref":"refs/heads/master","before":"41ba16053c8a65029a8122a99ad2159b5d9032c0","after":"28fbfad45e980787a5410b0978c6f9d8af02b32b","created":false,"deleted":false,"forced":false,"base_ref":null,"compare":"https://github.com/MirkoBrunner/test/compare/41ba16053c8a...28fbfad45e98","commits":[{"id":"28fbfad45e980787a5410b0978c6f9d8af02b32b","tree_id":"b5e8475a9ea821471c64b92ea5709057174f2ba0","distinct":true,"message":"test11","timestamp":"2017-01-31T16:47:33+01:00","url":"https://github.com/MirkoBrunner/test/commit/28fbfad45e980787a5410b0978c6f9d8af02b32b","author":{"name":"Mirko Brunner","email":"mirko.brunner@googlemail.com","username":"MirkoBrunner"},"committer":{"name":"Mirko Brunner","email":"mirko.brunner@googlemail.com","username":"MirkoBrunner"},"added":[],"removed":[],"modified":["test.txt"]}],"head_commit":{"id":"28fbfad45e980787a5410b0978c6f9d8af02b32b","tree_id":"b5e8475a9ea821471c64b92ea5709057174f2ba0","distinct":true,"message":"test11","timestamp":"2017-01-31T16:47:33+01:00","url":"https://github.com/MirkoBrunner/test/commit/28fbfad45e980787a5410b0978c6f9d8af02b32b","author":{"name":"Mirko Brunner","email":"mirko.brunner@googlemail.com","username":"MirkoBrunner"},"committer":{"name":"Mirko Brunner","email":"mirko.brunner@googlemail.com","username":"MirkoBrunner"},"added":[],"removed":[],"modified":["test.txt"]},"repository":{"id":80522924,"name":"test","full_name":"MirkoBrunner/test","owner":{"name":"MirkoBrunner","email":"mirko.brunner@googlemail.com"},"private":false,"html_url":"https://github.com/MirkoBrunner/test","description":null,"fork":false,"url":"https://github.com/MirkoBrunner/test","forks_url":"https://api.github.com/repos/MirkoBrunner/test/forks","keys_url":"https://api.github.com/repos/MirkoBrunner/test/keys{/key_id}","collaborators_url":"https://api.github.com/repos/MirkoBrunner/test/collaborators{/collaborator}","teams_url":"https://api.github.com/repos/MirkoBrunner/test/teams","hooks_url":"https://api.github.com/repos/MirkoBrunner/test/hooks","issue_events_url":"https://api.github.com/repos/MirkoBrunner/test/issues/events{/number}","events_url":"https://api.github.com/repos/MirkoBrunner/test/events","assignees_url":"https://api.github.com/repos/MirkoBrunner/test/assignees{/user}","branches_url":"https://api.github.com/repos/MirkoBrunner/test/branches{/branch}","tags_url":"https://api.github.com/repos/MirkoBrunner/test/tags","blobs_url":"https://api.github.com/repos/MirkoBrunner/test/git/blobs{/sha}","git_tags_url":"https://api.github.com/repos/MirkoBrunner/test/git/tags{/sha}","git_refs_url":"https://api.github.com/repos/MirkoBrunner/test/git/refs{/sha}","trees_url":"https://api.github.com/repos/MirkoBrunner/test/git/trees{/sha}","statuses_url":"https://api.github.com/repos/MirkoBrunner/test/statuses/{sha}","languages_url":"https://api.github.com/repos/MirkoBrunner/test/languages","stargazers_url":"https://api.github.com/repos/MirkoBrunner/test/stargazers","contributors_url":"https://api.github.com/repos/MirkoBrunner/test/contributors","subscribers_url":"https://api.github.com/repos/MirkoBrunner/test/subscribers","subscription_url":"https://api.github.com/repos/MirkoBrunner/test/subscription","commits_url":"https://api.github.com/repos/MirkoBrunner/test/commits{/sha}","git_commits_url":"https://api.github.com/repos/MirkoBrunner/test/git/commits{/sha}","comments_url":"https://api.github.com/repos/MirkoBrunner/test/comments{/number}","issue_comment_url":"https://api.github.com/repos/MirkoBrunner/test/issues/comments{/number}","contents_url":"https://api.github.com/repos/MirkoBrunner/test/contents/{+path}","compare_url":"https://api.github.com/repos/MirkoBrunner/test/compare/{base}...{head}","merges_url":"https://api.github.com/repos/MirkoBrunner/test/merges","archive_url":"https://api.github.com/repos/MirkoBrunner/test/{archive_format}{/ref}","downloads_url":"https://api.github.com/repos/MirkoBrunner/test/downloads","issues_url":"https://api.github.com/repos/MirkoBrunner/test/issues{/number}","pulls_url":"https://api.github.com/repos/MirkoBrunner/test/pulls{/number}","milestones_url":"https://api.github.com/repos/MirkoBrunner/test/milestones{/number}","notifications_url":"https://api.github.com/repos/MirkoBrunner/test/notifications{?since,all,participating}","labels_url":"https://api.github.com/repos/MirkoBrunner/test/labels{/name}","releases_url":"https://api.github.com/repos/MirkoBrunner/test/releases{/id}","deployments_url":"https://api.github.com/repos/MirkoBrunner/test/deployments","created_at":1485869448,"updated_at":"2017-01-31T14:34:50Z","pushed_at":1485877658,"git_url":"git://github.com/MirkoBrunner/test.git","ssh_url":"git@github.com:MirkoBrunner/test.git","clone_url":"https://github.com/MirkoBrunner/test.git","svn_url":"https://github.com/MirkoBrunner/test","homepage":null,"size":5,"stargazers_count":0,"watchers_count":0,"language":"PHP","has_issues":true,"has_downloads":true,"has_wiki":true,"has_pages":false,"forks_count":0,"mirror_url":null,"open_issues_count":0,"forks":0,"open_issues":0,"watchers":0,"default_branch":"master","stargazers":0,"master_branch":"master"},"pusher":{"name":"MirkoBrunner","email":"mirko.brunner@googlemail.com"},"sender":{"login":"MirkoBrunner","id":1172356,"avatar_url":"https://avatars.githubusercontent.com/u/1172356?v=3","gravatar_id":"","url":"https://api.github.com/users/MirkoBrunner","html_url":"https://github.com/MirkoBrunner","followers_url":"https://api.github.com/users/MirkoBrunner/followers","following_url":"https://api.github.com/users/MirkoBrunner/following{/other_user}","gists_url":"https://api.github.com/users/MirkoBrunner/gists{/gist_id}","starred_url":"https://api.github.com/users/MirkoBrunner/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/MirkoBrunner/subscriptions","organizations_url":"https://api.github.com/users/MirkoBrunner/orgs","repos_url":"https://api.github.com/users/MirkoBrunner/repos","events_url":"https://api.github.com/users/MirkoBrunner/events{/privacy}","received_events_url":"https://api.github.com/users/MirkoBrunner/received_events","type":"User","site_admin":false}}
+)
+Array
+(
+    [payload] => {"ref":"refs/heads/master","before":"41ba16053c8a65029a8122a99ad2159b5d9032c0","after":"28fbfad45e980787a5410b0978c6f9d8af02b32b","created":false,"deleted":false,"forced":false,"base_ref":null,"compare":"https://github.com/MirkoBrunner/test/compare/41ba16053c8a...28fbfad45e98","commits":[{"id":"28fbfad45e980787a5410b0978c6f9d8af02b32b","tree_id":"b5e8475a9ea821471c64b92ea5709057174f2ba0","distinct":true,"message":"test11","timestamp":"2017-01-31T16:47:33+01:00","url":"https://github.com/MirkoBrunner/test/commit/28fbfad45e980787a5410b0978c6f9d8af02b32b","author":{"name":"Mirko Brunner","email":"mirko.brunner@googlemail.com","username":"MirkoBrunner"},"committer":{"name":"Mirko Brunner","email":"mirko.brunner@googlemail.com","username":"MirkoBrunner"},"added":[],"removed":[],"modified":["test.txt"]}],"head_commit":{"id":"28fbfad45e980787a5410b0978c6f9d8af02b32b","tree_id":"b5e8475a9ea821471c64b92ea5709057174f2ba0","distinct":true,"message":"test11","timestamp":"2017-01-31T16:47:33+01:00","url":"https://github.com/MirkoBrunner/test/commit/28fbfad45e980787a5410b0978c6f9d8af02b32b","author":{"name":"Mirko Brunner","email":"mirko.brunner@googlemail.com","username":"MirkoBrunner"},"committer":{"name":"Mirko Brunner","email":"mirko.brunner@googlemail.com","username":"MirkoBrunner"},"added":[],"removed":[],"modified":["test.txt"]},"repository":{"id":80522924,"name":"test","full_name":"MirkoBrunner/test","owner":{"name":"MirkoBrunner","email":"mirko.brunner@googlemail.com"},"private":false,"html_url":"https://github.com/MirkoBrunner/test","description":null,"fork":false,"url":"https://github.com/MirkoBrunner/test","forks_url":"https://api.github.com/repos/MirkoBrunner/test/forks","keys_url":"https://api.github.com/repos/MirkoBrunner/test/keys{/key_id}","collaborators_url":"https://api.github.com/repos/MirkoBrunner/test/collaborators{/collaborator}","teams_url":"https://api.github.com/repos/MirkoBrunner/test/teams","hooks_url":"https://api.github.com/repos/MirkoBrunner/test/hooks","issue_events_url":"https://api.github.com/repos/MirkoBrunner/test/issues/events{/number}","events_url":"https://api.github.com/repos/MirkoBrunner/test/events","assignees_url":"https://api.github.com/repos/MirkoBrunner/test/assignees{/user}","branches_url":"https://api.github.com/repos/MirkoBrunner/test/branches{/branch}","tags_url":"https://api.github.com/repos/MirkoBrunner/test/tags","blobs_url":"https://api.github.com/repos/MirkoBrunner/test/git/blobs{/sha}","git_tags_url":"https://api.github.com/repos/MirkoBrunner/test/git/tags{/sha}","git_refs_url":"https://api.github.com/repos/MirkoBrunner/test/git/refs{/sha}","trees_url":"https://api.github.com/repos/MirkoBrunner/test/git/trees{/sha}","statuses_url":"https://api.github.com/repos/MirkoBrunner/test/statuses/{sha}","languages_url":"https://api.github.com/repos/MirkoBrunner/test/languages","stargazers_url":"https://api.github.com/repos/MirkoBrunner/test/stargazers","contributors_url":"https://api.github.com/repos/MirkoBrunner/test/contributors","subscribers_url":"https://api.github.com/repos/MirkoBrunner/test/subscribers","subscription_url":"https://api.github.com/repos/MirkoBrunner/test/subscription","commits_url":"https://api.github.com/repos/MirkoBrunner/test/commits{/sha}","git_commits_url":"https://api.github.com/repos/MirkoBrunner/test/git/commits{/sha}","comments_url":"https://api.github.com/repos/MirkoBrunner/test/comments{/number}","issue_comment_url":"https://api.github.com/repos/MirkoBrunner/test/issues/comments{/number}","contents_url":"https://api.github.com/repos/MirkoBrunner/test/contents/{+path}","compare_url":"https://api.github.com/repos/MirkoBrunner/test/compare/{base}...{head}","merges_url":"https://api.github.com/repos/MirkoBrunner/test/merges","archive_url":"https://api.github.com/repos/MirkoBrunner/test/{archive_format}{/ref}","downloads_url":"https://api.github.com/repos/MirkoBrunner/test/downloads","issues_url":"https://api.github.com/repos/MirkoBrunner/test/issues{/number}","pulls_url":"https://api.github.com/repos/MirkoBrunner/test/pulls{/number}","milestones_url":"https://api.github.com/repos/MirkoBrunner/test/milestones{/number}","notifications_url":"https://api.github.com/repos/MirkoBrunner/test/notifications{?since,all,participating}","labels_url":"https://api.github.com/repos/MirkoBrunner/test/labels{/name}","releases_url":"https://api.github.com/repos/MirkoBrunner/test/releases{/id}","deployments_url":"https://api.github.com/repos/MirkoBrunner/test/deployments","created_at":1485869448,"updated_at":"2017-01-31T14:34:50Z","pushed_at":1485877658,"git_url":"git://github.com/MirkoBrunner/test.git","ssh_url":"git@github.com:MirkoBrunner/test.git","clone_url":"https://github.com/MirkoBrunner/test.git","svn_url":"https://github.com/MirkoBrunner/test","homepage":null,"size":5,"stargazers_count":0,"watchers_count":0,"language":"PHP","has_issues":true,"has_downloads":true,"has_wiki":true,"has_pages":false,"forks_count":0,"mirror_url":null,"open_issues_count":0,"forks":0,"open_issues":0,"watchers":0,"default_branch":"master","stargazers":0,"master_branch":"master"},"pusher":{"name":"MirkoBrunner","email":"mirko.brunner@googlemail.com"},"sender":{"login":"MirkoBrunner","id":1172356,"avatar_url":"https://avatars.githubusercontent.com/u/1172356?v=3","gravatar_id":"","url":"https://api.github.com/users/MirkoBrunner","html_url":"https://github.com/MirkoBrunner","followers_url":"https://api.github.com/users/MirkoBrunner/followers","following_url":"https://api.github.com/users/MirkoBrunner/following{/other_user}","gists_url":"https://api.github.com/users/MirkoBrunner/gists{/gist_id}","starred_url":"https://api.github.com/users/MirkoBrunner/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/MirkoBrunner/subscriptions","organizations_url":"https://api.github.com/users/MirkoBrunner/orgs","repos_url":"https://api.github.com/users/MirkoBrunner/repos","events_url":"https://api.github.com/users/MirkoBrunner/events{/privacy}","received_events_url":"https://api.github.com/users/MirkoBrunner/received_events","type":"User","site_admin":false}}
+)
+stdClass Object
+(
+    [ref] => refs/heads/master
+    [before] => 28fbfad45e980787a5410b0978c6f9d8af02b32b
+    [after] => 56d1ecea3c506f13a385609aa417bdd41b076f5b
+    [created] => 
+    [deleted] => 
+    [forced] => 
+    [base_ref] => 
+    [compare] => https://github.com/MirkoBrunner/test/compare/28fbfad45e98...56d1ecea3c50
+    [commits] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [id] => 56d1ecea3c506f13a385609aa417bdd41b076f5b
+                    [tree_id] => 0f4db2e56fadc8a4f7214e310ba77de25c92be02
+                    [distinct] => 1
+                    [message] => test12
+                    [timestamp] => 2017-01-31T16:54:22+01:00
+                    [url] => https://github.com/MirkoBrunner/test/commit/56d1ecea3c506f13a385609aa417bdd41b076f5b
+                    [author] => stdClass Object
+                        (
+                            [name] => Mirko Brunner
+                            [email] => mirko.brunner@googlemail.com
+                            [username] => MirkoBrunner
+                        )
+
+                    [committer] => stdClass Object
+                        (
+                            [name] => Mirko Brunner
+                            [email] => mirko.brunner@googlemail.com
+                            [username] => MirkoBrunner
+                        )
+
+                    [added] => Array
+                        (
+                        )
+
+                    [removed] => Array
+                        (
+                        )
+
+                    [modified] => Array
+                        (
+                            [0] => test.txt
+                        )
+
+                )
+
+        )
+
+    [head_commit] => stdClass Object
+        (
+            [id] => 56d1ecea3c506f13a385609aa417bdd41b076f5b
+            [tree_id] => 0f4db2e56fadc8a4f7214e310ba77de25c92be02
+            [distinct] => 1
+            [message] => test12
+            [timestamp] => 2017-01-31T16:54:22+01:00
+            [url] => https://github.com/MirkoBrunner/test/commit/56d1ecea3c506f13a385609aa417bdd41b076f5b
+            [author] => stdClass Object
+                (
+                    [name] => Mirko Brunner
+                    [email] => mirko.brunner@googlemail.com
+                    [username] => MirkoBrunner
+                )
+
+            [committer] => stdClass Object
+                (
+                    [name] => Mirko Brunner
+                    [email] => mirko.brunner@googlemail.com
+                    [username] => MirkoBrunner
+                )
+
+            [added] => Array
+                (
+                )
+
+            [removed] => Array
+                (
+                )
+
+            [modified] => Array
+                (
+                    [0] => test.txt
+                )
+
+        )
+
+    [repository] => stdClass Object
+        (
+            [id] => 80522924
+            [name] => test
+            [full_name] => MirkoBrunner/test
+            [owner] => stdClass Object
+                (
+                    [name] => MirkoBrunner
+                    [email] => mirko.brunner@googlemail.com
+                )
+
+            [private] => 
+            [html_url] => https://github.com/MirkoBrunner/test
+            [description] => 
+            [fork] => 
+            [url] => https://github.com/MirkoBrunner/test
+            [forks_url] => https://api.github.com/repos/MirkoBrunner/test/forks
+            [keys_url] => https://api.github.com/repos/MirkoBrunner/test/keys{/key_id}
+            [collaborators_url] => https://api.github.com/repos/MirkoBrunner/test/collaborators{/collaborator}
+            [teams_url] => https://api.github.com/repos/MirkoBrunner/test/teams
+            [hooks_url] => https://api.github.com/repos/MirkoBrunner/test/hooks
+            [issue_events_url] => https://api.github.com/repos/MirkoBrunner/test/issues/events{/number}
+            [events_url] => https://api.github.com/repos/MirkoBrunner/test/events
+            [assignees_url] => https://api.github.com/repos/MirkoBrunner/test/assignees{/user}
+            [branches_url] => https://api.github.com/repos/MirkoBrunner/test/branches{/branch}
+            [tags_url] => https://api.github.com/repos/MirkoBrunner/test/tags
+            [blobs_url] => https://api.github.com/repos/MirkoBrunner/test/git/blobs{/sha}
+            [git_tags_url] => https://api.github.com/repos/MirkoBrunner/test/git/tags{/sha}
+            [git_refs_url] => https://api.github.com/repos/MirkoBrunner/test/git/refs{/sha}
+            [trees_url] => https://api.github.com/repos/MirkoBrunner/test/git/trees{/sha}
+            [statuses_url] => https://api.github.com/repos/MirkoBrunner/test/statuses/{sha}
+            [languages_url] => https://api.github.com/repos/MirkoBrunner/test/languages
+            [stargazers_url] => https://api.github.com/repos/MirkoBrunner/test/stargazers
+            [contributors_url] => https://api.github.com/repos/MirkoBrunner/test/contributors
+            [subscribers_url] => https://api.github.com/repos/MirkoBrunner/test/subscribers
+            [subscription_url] => https://api.github.com/repos/MirkoBrunner/test/subscription
+            [commits_url] => https://api.github.com/repos/MirkoBrunner/test/commits{/sha}
+            [git_commits_url] => https://api.github.com/repos/MirkoBrunner/test/git/commits{/sha}
+            [comments_url] => https://api.github.com/repos/MirkoBrunner/test/comments{/number}
+            [issue_comment_url] => https://api.github.com/repos/MirkoBrunner/test/issues/comments{/number}
+            [contents_url] => https://api.github.com/repos/MirkoBrunner/test/contents/{+path}
+            [compare_url] => https://api.github.com/repos/MirkoBrunner/test/compare/{base}...{head}
+            [merges_url] => https://api.github.com/repos/MirkoBrunner/test/merges
+            [archive_url] => https://api.github.com/repos/MirkoBrunner/test/{archive_format}{/ref}
+            [downloads_url] => https://api.github.com/repos/MirkoBrunner/test/downloads
+            [issues_url] => https://api.github.com/repos/MirkoBrunner/test/issues{/number}
+            [pulls_url] => https://api.github.com/repos/MirkoBrunner/test/pulls{/number}
+            [milestones_url] => https://api.github.com/repos/MirkoBrunner/test/milestones{/number}
+            [notifications_url] => https://api.github.com/repos/MirkoBrunner/test/notifications{?since,all,participating}
+            [labels_url] => https://api.github.com/repos/MirkoBrunner/test/labels{/name}
+            [releases_url] => https://api.github.com/repos/MirkoBrunner/test/releases{/id}
+            [deployments_url] => https://api.github.com/repos/MirkoBrunner/test/deployments
+            [created_at] => 1485869448
+            [updated_at] => 2017-01-31T14:34:50Z
+            [pushed_at] => 1485878069
+            [git_url] => git://github.com/MirkoBrunner/test.git
+            [ssh_url] => git@github.com:MirkoBrunner/test.git
+            [clone_url] => https://github.com/MirkoBrunner/test.git
+            [svn_url] => https://github.com/MirkoBrunner/test
+            [homepage] => 
+            [size] => 5
+            [stargazers_count] => 0
+            [watchers_count] => 0
+            [language] => PHP
+            [has_issues] => 1
+            [has_downloads] => 1
+            [has_wiki] => 1
+            [has_pages] => 
+            [forks_count] => 0
+            [mirror_url] => 
+            [open_issues_count] => 0
+            [forks] => 0
+            [open_issues] => 0
+            [watchers] => 0
+            [default_branch] => master
+            [stargazers] => 0
+            [master_branch] => master
+        )
+
+    [pusher] => stdClass Object
+        (
+            [name] => MirkoBrunner
+            [email] => mirko.brunner@googlemail.com
+        )
+
+    [sender] => stdClass Object
+        (
+            [login] => MirkoBrunner
+            [id] => 1172356
+            [avatar_url] => https://avatars.githubusercontent.com/u/1172356?v=3
+            [gravatar_id] => 
+            [url] => https://api.github.com/users/MirkoBrunner
+            [html_url] => https://github.com/MirkoBrunner
+            [followers_url] => https://api.github.com/users/MirkoBrunner/followers
+            [following_url] => https://api.github.com/users/MirkoBrunner/following{/other_user}
+            [gists_url] => https://api.github.com/users/MirkoBrunner/gists{/gist_id}
+            [starred_url] => https://api.github.com/users/MirkoBrunner/starred{/owner}{/repo}
+            [subscriptions_url] => https://api.github.com/users/MirkoBrunner/subscriptions
+            [organizations_url] => https://api.github.com/users/MirkoBrunner/orgs
+            [repos_url] => https://api.github.com/users/MirkoBrunner/repos
+            [events_url] => https://api.github.com/users/MirkoBrunner/events{/privacy}
+            [received_events_url] => https://api.github.com/users/MirkoBrunner/received_events
+            [type] => User
+            [site_admin] => 
+        )
+
+)
+Mirko Brunner_stdClass Object
+(
+    [ref] => refs/heads/master
+    [before] => 56d1ecea3c506f13a385609aa417bdd41b076f5b
+    [after] => 87d0584b4b77875aa71d8df2285b75a7e92c021d
+    [created] => 
+    [deleted] => 
+    [forced] => 
+    [base_ref] => 
+    [compare] => https://github.com/MirkoBrunner/test/compare/56d1ecea3c50...87d0584b4b77
+    [commits] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [id] => 87d0584b4b77875aa71d8df2285b75a7e92c021d
+                    [tree_id] => 9a504ad053d39c6dd1dc013056f6cff65eeadd84
+                    [distinct] => 1
+                    [message] => test13
+                    [timestamp] => 2017-01-31T16:56:13+01:00
+                    [url] => https://github.com/MirkoBrunner/test/commit/87d0584b4b77875aa71d8df2285b75a7e92c021d
+                    [author] => stdClass Object
+                        (
+                            [name] => Mirko Brunner
+                            [email] => mirko.brunner@googlemail.com
+                            [username] => MirkoBrunner
+                        )
+
+                    [committer] => stdClass Object
+                        (
+                            [name] => Mirko Brunner
+                            [email] => mirko.brunner@googlemail.com
+                            [username] => MirkoBrunner
+                        )
+
+                    [added] => Array
+                        (
+                        )
+
+                    [removed] => Array
+                        (
+                        )
+
+                    [modified] => Array
+                        (
+                            [0] => test.txt
+                        )
+
+                )
+
+        )
+
+    [head_commit] => stdClass Object
+        (
+            [id] => 87d0584b4b77875aa71d8df2285b75a7e92c021d
+            [tree_id] => 9a504ad053d39c6dd1dc013056f6cff65eeadd84
+            [distinct] => 1
+            [message] => test13
+            [timestamp] => 2017-01-31T16:56:13+01:00
+            [url] => https://github.com/MirkoBrunner/test/commit/87d0584b4b77875aa71d8df2285b75a7e92c021d
+            [author] => stdClass Object
+                (
+                    [name] => Mirko Brunner
+                    [email] => mirko.brunner@googlemail.com
+                    [username] => MirkoBrunner
+                )
+
+            [committer] => stdClass Object
+                (
+                    [name] => Mirko Brunner
+                    [email] => mirko.brunner@googlemail.com
+                    [username] => MirkoBrunner
+                )
+
+            [added] => Array
+                (
+                )
+
+            [removed] => Array
+                (
+                )
+
+            [modified] => Array
+                (
+                    [0] => test.txt
+                )
+
+        )
+
+    [repository] => stdClass Object
+        (
+            [id] => 80522924
+            [name] => test
+            [full_name] => MirkoBrunner/test
+            [owner] => stdClass Object
+                (
+                    [name] => MirkoBrunner
+                    [email] => mirko.brunner@googlemail.com
+                )
+
+            [private] => 
+            [html_url] => https://github.com/MirkoBrunner/test
+            [description] => 
+            [fork] => 
+            [url] => https://github.com/MirkoBrunner/test
+            [forks_url] => https://api.github.com/repos/MirkoBrunner/test/forks
+            [keys_url] => https://api.github.com/repos/MirkoBrunner/test/keys{/key_id}
+            [collaborators_url] => https://api.github.com/repos/MirkoBrunner/test/collaborators{/collaborator}
+            [teams_url] => https://api.github.com/repos/MirkoBrunner/test/teams
+            [hooks_url] => https://api.github.com/repos/MirkoBrunner/test/hooks
+            [issue_events_url] => https://api.github.com/repos/MirkoBrunner/test/issues/events{/number}
+            [events_url] => https://api.github.com/repos/MirkoBrunner/test/events
+            [assignees_url] => https://api.github.com/repos/MirkoBrunner/test/assignees{/user}
+            [branches_url] => https://api.github.com/repos/MirkoBrunner/test/branches{/branch}
+            [tags_url] => https://api.github.com/repos/MirkoBrunner/test/tags
+            [blobs_url] => https://api.github.com/repos/MirkoBrunner/test/git/blobs{/sha}
+            [git_tags_url] => https://api.github.com/repos/MirkoBrunner/test/git/tags{/sha}
+            [git_refs_url] => https://api.github.com/repos/MirkoBrunner/test/git/refs{/sha}
+            [trees_url] => https://api.github.com/repos/MirkoBrunner/test/git/trees{/sha}
+            [statuses_url] => https://api.github.com/repos/MirkoBrunner/test/statuses/{sha}
+            [languages_url] => https://api.github.com/repos/MirkoBrunner/test/languages
+            [stargazers_url] => https://api.github.com/repos/MirkoBrunner/test/stargazers
+            [contributors_url] => https://api.github.com/repos/MirkoBrunner/test/contributors
+            [subscribers_url] => https://api.github.com/repos/MirkoBrunner/test/subscribers
+            [subscription_url] => https://api.github.com/repos/MirkoBrunner/test/subscription
+            [commits_url] => https://api.github.com/repos/MirkoBrunner/test/commits{/sha}
+            [git_commits_url] => https://api.github.com/repos/MirkoBrunner/test/git/commits{/sha}
+            [comments_url] => https://api.github.com/repos/MirkoBrunner/test/comments{/number}
+            [issue_comment_url] => https://api.github.com/repos/MirkoBrunner/test/issues/comments{/number}
+            [contents_url] => https://api.github.com/repos/MirkoBrunner/test/contents/{+path}
+            [compare_url] => https://api.github.com/repos/MirkoBrunner/test/compare/{base}...{head}
+            [merges_url] => https://api.github.com/repos/MirkoBrunner/test/merges
+            [archive_url] => https://api.github.com/repos/MirkoBrunner/test/{archive_format}{/ref}
+            [downloads_url] => https://api.github.com/repos/MirkoBrunner/test/downloads
+            [issues_url] => https://api.github.com/repos/MirkoBrunner/test/issues{/number}
+            [pulls_url] => https://api.github.com/repos/MirkoBrunner/test/pulls{/number}
+            [milestones_url] => https://api.github.com/repos/MirkoBrunner/test/milestones{/number}
+            [notifications_url] => https://api.github.com/repos/MirkoBrunner/test/notifications{?since,all,participating}
+            [labels_url] => https://api.github.com/repos/MirkoBrunner/test/labels{/name}
+            [releases_url] => https://api.github.com/repos/MirkoBrunner/test/releases{/id}
+            [deployments_url] => https://api.github.com/repos/MirkoBrunner/test/deployments
+            [created_at] => 1485869448
+            [updated_at] => 2017-01-31T14:34:50Z
+            [pushed_at] => 1485878177
+            [git_url] => git://github.com/MirkoBrunner/test.git
+            [ssh_url] => git@github.com:MirkoBrunner/test.git
+            [clone_url] => https://github.com/MirkoBrunner/test.git
+            [svn_url] => https://github.com/MirkoBrunner/test
+            [homepage] => 
+            [size] => 5
+            [stargazers_count] => 0
+            [watchers_count] => 0
+            [language] => PHP
+            [has_issues] => 1
+            [has_downloads] => 1
+            [has_wiki] => 1
+            [has_pages] => 
+            [forks_count] => 0
+            [mirror_url] => 
+            [open_issues_count] => 0
+            [forks] => 0
+            [open_issues] => 0
+            [watchers] => 0
+            [default_branch] => master
+            [stargazers] => 0
+            [master_branch] => master
+        )
+
+    [pusher] => stdClass Object
+        (
+            [name] => MirkoBrunner
+            [email] => mirko.brunner@googlemail.com
+        )
+
+    [sender] => stdClass Object
+        (
+            [login] => MirkoBrunner
+            [id] => 1172356
+            [avatar_url] => https://avatars.githubusercontent.com/u/1172356?v=3
+            [gravatar_id] => 
+            [url] => https://api.github.com/users/MirkoBrunner
+            [html_url] => https://github.com/MirkoBrunner
+            [followers_url] => https://api.github.com/users/MirkoBrunner/followers
+            [following_url] => https://api.github.com/users/MirkoBrunner/following{/other_user}
+            [gists_url] => https://api.github.com/users/MirkoBrunner/gists{/gist_id}
+            [starred_url] => https://api.github.com/users/MirkoBrunner/starred{/owner}{/repo}
+            [subscriptions_url] => https://api.github.com/users/MirkoBrunner/subscriptions
+            [organizations_url] => https://api.github.com/users/MirkoBrunner/orgs
+            [repos_url] => https://api.github.com/users/MirkoBrunner/repos
+            [events_url] => https://api.github.com/users/MirkoBrunner/events{/privacy}
+            [received_events_url] => https://api.github.com/users/MirkoBrunner/received_events
+            [type] => User
+            [site_admin] => 
+        )
+
+)
+Mirko Brunner_test13Mirko Brunner_test13Array
+(
+    [0] => Updating 9f87b29..d4fa970
+)
+1Mirko Brunner_test13Array
+(
+    [0] => Updating 9f87b29..7306d0d
+)
+1
