@@ -37,7 +37,7 @@ if ($payload->ref === 'refs/heads/master') {
 			mail($mail, 'GIT BOT', $m);
 			
 			//we have a description?
-			$dm = explode("\n\n", "test1 msg\n\ntest2 descr");
+			$dm = explode("\n\n", $commit_msg);
 			if($dm) {
 				$text = $dm[1]."\n\nFrom: ".$where;
 				
