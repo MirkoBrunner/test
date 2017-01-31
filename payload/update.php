@@ -20,7 +20,9 @@ if ($payload->ref === 'refs/heads/master') {
 	file_put_contents('github.txt', print_r($r, TRUE), FILE_APPEND);
 	file_put_contents('github.txt', print_r($rr, TRUE), FILE_APPEND);
 	
-	mail($mail, 'GIT TEST', print_r($a, TRUE));
+	mail($mail, 'GIT TEST 1', print_r($a, TRUE));
+	mail($mail, 'GIT TEST 2', print_r($r, TRUE));
+	mail($mail, 'GIT TEST 3', print_r($rr, TRUE));
 	
 	if(is_array($r) && $rr == 0) {
 		
