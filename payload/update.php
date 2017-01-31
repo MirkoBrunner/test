@@ -27,7 +27,7 @@ if ($payload->ref === 'refs/heads/master') {
 			
 		} else {
 			
-			$m = $commit_msg;
+			$m = $commit_msg."\n\n";
 			
 			foreach($r AS $c) {
 				$m.= $c."\n";
