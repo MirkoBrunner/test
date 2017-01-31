@@ -1,19 +1,23 @@
 <?php
 
-//$x = exec("sh pull.sh", $i, $o);
-$x = exec("git pull origin master", $i, $o);
-var_dump($x);
-echo '<pre>';
-var_dump($i);
-echo '</pre>';
-var_dump($o);
-
-if(is_array($i)) {
+error_reporting(0);
+try {
+        // Decode the payload json string
+    $payload = json_decode($_REQUEST['payload']);
+    
+} catch(Exception $e) {
 	
-	if($i[0] == "Already up-to-date.") {
-		//do nothing
-		
-	}
+        exit(0);
 }
-
+// Pushed to master?
+if ($payload->ref === 'refs/heads/master')
+{
+        // Log the payload object
+        file_put_contents('logs/github.txt', print_r($payload, TRUE), FILE_APPEND);
+        // Prep the URL - replace https protocol with git protocol to prevent 'update-server-info' errors
+        $url = str_replace('https://', 'git://', $payload->repository->url);
+        // Run the build script as a background process
+        `./build.sh {$url} {$payload->repository->name} > /dev/null 2>&1 &`;
+}
+//secret 834lafhinsdcluw39rowp0q2
 ?>
