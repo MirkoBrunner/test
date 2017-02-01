@@ -15,10 +15,6 @@ if ($payload->ref === 'refs/heads/master') {
 	$mail = $payload->commits[0]->committer->email;
 	
     $a = exec("git pull origin master 2>&1", $r, $rr);
-    
-    file_put_contents('github.txt', print_r($where."_".$commit_msg, TRUE), FILE_APPEND);
-	file_put_contents('github.txt', print_r($r, TRUE), FILE_APPEND);
-	file_put_contents('github.txt', print_r($rr, TRUE), FILE_APPEND);
 	
 	mail($mail, 'GIT TEST 1', print_r($a, TRUE));
 	mail($mail, 'GIT TEST 2', print_r($r, TRUE));
