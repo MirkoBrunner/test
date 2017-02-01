@@ -1,5 +1,5 @@
 <?php
-echo filetime("../sql_queries/");
+echo filemtime("../sql_queries/");
 die();
 try {
     // Decode the payload json string
