@@ -28,6 +28,9 @@ if ($payload->ref === 'refs/heads/master') {
 			//no thing to do		
 			
 		} else {
+			//test if we have new sql stuff
+			$oldtime = file_get_contents("../sqlfile.log");
+			$time = filetime("../sqlfile.log");
 			
 			$m = $commit_msg."\n\n";
 			
