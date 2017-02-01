@@ -1,4 +1,6 @@
 <?php
+echo filetime("../sql_queries/");
+die();
 try {
     // Decode the payload json string
 	$payload = json_decode($_REQUEST['payload']);
