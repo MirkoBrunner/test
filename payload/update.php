@@ -1,6 +1,10 @@
 <?php
-echo filemtime("../sql_queries/");
-die();
+$connection = ssh2_connect('localjost', 22, array('hostkey'=>'ssh-rsa'));
+if (ssh2_auth_pubkey_file($connection, 'Mirko', '/home/username/.ssh/id_rsa.pub', '/home/username/.ssh/id_rsa', 'secret')) {
+  
+} else {
+  die('Public Key Authentication Failed');
+}
 try {
     // Decode the payload json string
 	$payload = json_decode($_REQUEST['payload']);
