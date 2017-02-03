@@ -1,1 +1,42 @@
 lhljlijigzjjgz
+
+root@v22015012637822903:/var/customers/webs/Mirko/codestaub/htdocs/test# git fetch
+remote: Counting objects: 4, done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 4 (delta 1), reused 4 (delta 1), pack-reused 0
+Unpacking objects: 100% (4/4), done.
+From https://github.com/MirkoBrunner/test
+   b917ce3..35b6ddf  master     -> origin/master
+root@v22015012637822903:/var/customers/webs/Mirko/codestaub/htdocs/test# git pull origin master
+From https://github.com/MirkoBrunner/test
+ * branch            master     -> FETCH_HEAD
+Updating 4ef0131..35b6ddf
+error: Your local changes to the following files would be overwritten by merge:
+	payload/update.php
+Please, commit your changes or stash them before you can merge.
+Aborting
+root@v22015012637822903:/var/customers/webs/Mirko/codestaub/htdocs/test# git status
+On branch master
+Your branch is behind 'origin/master' by 2 commits, and can be fast-forwarded.
+  (use "git pull" to update your local branch)
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   payload/update.php
+	modified:   test.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+
+
+
+root@v22015012637822903:/var/customers/webs/Mirko/codestaub/htdocs/test# git pull origin master
+From https://github.com/MirkoBrunner/test
+ * branch            master     -> FETCH_HEAD
+Updating 4ef0131..35b6ddf
+Fast-forward
+ .DS_Store          | Bin 6148 -> 6148 bytes
+ payload/update.php |   8 ++++++--
+ sql_queries/test1  |   2 +-
+ 3 files changed, 7 insertions(+), 3 deletions(-)
